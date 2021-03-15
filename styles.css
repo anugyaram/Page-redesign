@@ -76,3 +76,7 @@ nav .active{
 .side-nav .active{
     color: #F2F2F2;
 }
+
+.side-nav a:hover:not(.active){
+    color: yellow;
+}
