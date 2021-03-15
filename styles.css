@@ -1,3 +1,6 @@
+body{
+    margin: 0px;
+}
 
 .header{
     background-color: #006FB9;
@@ -39,8 +42,37 @@ nav a{
     padding: 10px 20px;
 }
 
-.active{
+nav .active{
     background-color: #fff;
     color: #000;
     
+}
+
+.side-nav{
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+    width: 140px;
+    background-color: #000;
+    overflow-x: hidden;
+}
+
+.side-nav a{
+    color: #464849;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px 10px 40px;
+    text-align: center;
+    font-size: 90%;
+}
+
+.side-nav a img{
+    display: block;
+    margin-left: 30%;
+    height: 30px;
+    width: 30px;
+}
+
+.side-nav .active{
+    color: #F2F2F2;
 }
